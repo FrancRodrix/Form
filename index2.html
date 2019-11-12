@@ -1,0 +1,118 @@
+<html>
+<head>
+    <title>Thruskills Admission Form</title>
+    <style>
+        .form{
+            
+            text-align: center;   
+        }
+        
+        #head{
+            text-align:center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            font-style: italic;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <form autocomplete="off" novalidate style="font-family:Georgia, 'Times New Roman', Times, serif " class="form" >
+        <nav>
+            <a href="index3.html">second page</a>
+            <a href="index4.html">third page</a>
+        </nav>
+        <h1 id="head">THRUSKILLS ADMISSION FORM</h1>
+        <fieldset >
+            <label >NAME:</label>
+            <input type="text" spellcheck="true" required>
+            <br>
+            <br>
+            <label >AGE:</label>
+            <input type="number">
+            <br>
+            <br>
+            <label >DATE OF BIRTH:</label>
+            <input type="date" >
+            <br>
+            <br>
+            <label for="gen">GENDER:</label>
+            <input type="radio" name="gender" id="gen" value="male">
+            <label >male</label>
+            <input type="radio" name="gender" id="gen1" value="female">
+            <label >female</label>
+            <br>
+            <br>
+            
+            
+            <label >QUALIFICATIONS:</label>
+            <input type="checkbox" name="qualif" id="qualification" value="10th">
+            <label >10th</label>
+            <input type="checkbox" name="qualif" id="qualification" value="12th">
+            <label >12th</label>
+            <input type="checkbox" name="qualif" id="qualification" value="diploma">
+            <label >Diploma</label>
+            <input type="checkbox" name="qualif" id="qualification" value="degree">
+            <label >Degree</label>
+            <br>
+            <br>
+            <label >EMAIL:</label>
+            <input type="email">
+            <br>
+            <br>
+            <label for="courses">COURSES:</label>
+            <select name="course" id="course">
+                <option value="FullStack">Fullstack</option>
+                <option value="Java">Java</option>
+                <option value="python">python</option>
+            </select>
+            <br>
+            <br>
+            <label >EXPERIENCE :</label>
+            <input type="radio" name="exp" id="exp" value="freshee">
+            <label >FRESHER</label>
+            <input type="radio" name="exp" id="exp2" value="professional">
+            <label >PROFESSIONAL</label>
+            <br>
+            <br>
+            
+            
+            
+            <label >DEGREE CERTIFICATE :</label>
+            <input type="file" value="file1" id="file">
+            <br>
+            <br>
+            <label >MESSAGE</label>
+            <textarea name="mesg" id="" cols="14" rows="5" autocomplete="off" minlength="5" 
+            maxlength="10"></textarea>
+            
+            <br>
+            <br>
+            <button name="button" type="submit" value="submit" autofocus disabled>submit</button>
+            <br>
+            <br>
+            <label >name:</label>
+            <input type="text" name="name"  spellcheck="true" id="name" placeholder="enter the username" >
+            <br>
+            <br>
+            <a href="index3.html" > <input type="button" value="SUBMIT">   </a> 
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <blockquote >BLOCKQUOTE</blockquote>
+    <p title="import block" ><cite>hello world this is franc</cite> ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt neque illo tempora laborum in dicta optio debitis ipsa. Excepturi quas repellendus
+        provident tenetur hic nostrum ratione molestias commodi aspernatur!</p>
+    
+    </body>
+    </html>
+    <!-- readonly:only read the value
+        placeholder:input text in the feild.
+        validate/nonvalidate: checks all condition is satisfied.
+        autocomplete:on/off -- used because no to show the history written.
+        <address> tag is used spcially to write adress.
+            <cite> tag is used to make text italic.
+                readonly atribute--- only used to read the text.
+                required atribute ----mandtary to fill the form.
+            -->
